@@ -3,6 +3,8 @@ import { Upload, FileText, Download, Loader2, CheckCircle, AlertCircle, X, Spark
 import axios from 'axios';
 import './App.css';
 
+const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:8000";
+
 function App() {
   const [file, setFile] = useState(null);
   const [uploading, setUploading] = useState(false);
@@ -90,7 +92,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('http://localhost:8000/analyze', formData, {
+      const response = await axios.post(`${API_BASE}/analyze`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -110,7 +112,7 @@ function App() {
 
   const pollStatus = async (id) => {
     try {
-      const response = await axios.get(`http://localhost:8000/status/${id}`);
+      const response = await axios.get(`${API_BASE}/status/${id}`);
       const data = response.data;
       
       setStatus(data.message);
@@ -135,7 +137,7 @@ function App() {
   const handleDownload = async () => {
     if (downloadUrl && taskId) {
       try {
-        const response = await axios.get(`http://localhost:8000${downloadUrl}`, {
+        const response = await axios.get(`${API_BASE}${downloadUrl}`, {
           responseType: 'blob',
         });
         
