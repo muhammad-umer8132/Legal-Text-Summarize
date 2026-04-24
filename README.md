@@ -74,7 +74,7 @@ Enter Legal Text Summarizer – your AI-powered legal companion that doesn't jus
 ### 🖼️ Beautiful Interface Preview
 
 <div align="center">
-  <img src="frontend-screenshot.png" alt="Legal Text Summarizer Interface" width="100%" style="border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+  <img src="frontend_screenshot.png" alt="Legal Text Summarizer Interface" width="100%" style="border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
   <p><i>🎨 Stunning glassmorphism design with intuitive drag-and-drop interface</i></p>
 </div>
 
