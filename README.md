@@ -59,7 +59,28 @@ Enter Legal Text Summarizer – your AI-powered legal companion that doesn't jus
 
 ---
 
-## 💎 Features That Delight
+## � Live Demo
+
+<div align="center">
+
+### ✨ **[Try It Now - Live on Vercel](https://legal-text-summarize-ks5m.vercel.app/)** ✨
+
+[![Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://legal-text-summarize-ks5m.vercel.app/)
+
+**Experience the magic instantly — no installation required!**
+
+</div>
+
+### 🖼️ Beautiful Interface Preview
+
+<div align="center">
+  <img src="frontend-screenshot.png" alt="Legal Text Summarizer Interface" width="100%" style="border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+  <p><i>🎨 Stunning glassmorphism design with intuitive drag-and-drop interface</i></p>
+</div>
+
+---
+
+## �💎 Features That Delight
 
 ### 📄 **Intelligent Document Processing**
 - **Drag & Drop Magic**: Simply drop your legal documents and watch the magic happen
